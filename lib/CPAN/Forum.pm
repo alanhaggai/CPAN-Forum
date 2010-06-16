@@ -203,9 +203,9 @@ in ~/.bashrc I have the following:
 
     perl bin/setup.pl 
         --username testadmin              The user name of the administrator used on the web interface
-        --email 'test\@perl.org.il'       The E-mail of the administrator.
+        --email 'test@perl.org.il'       The E-mail of the administrator.
         --password pw_of_testadmin        The password of the administrator.
-        --from 'testforum\@perl.org.il'   The Email address to be used as the from address in the messages sent by the system.
+        --from 'testforum@perl.org.il'   The Email address to be used as the from address in the messages sent by the system.
 
         --dbname $ENV{CPAN_FORUM_DB} 
         --dbuser $ENV{CPAN_FORUM_USER}
